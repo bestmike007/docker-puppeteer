@@ -1,4 +1,4 @@
-FROM node:8.11.2-slim
+FROM node:8.12.0-slim
 MAINTAINER Yuanhai He <i@bestmike007.com>
 
 RUN curl -sSL https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
